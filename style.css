@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin:0;
+    padding:0
+    
+}
+.wrapper{
+    background-color: #031F4B !important;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+}
+h1.sp-heading {
+    color: #ffffff;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+}
+img.sp-img {
+    height: 301px;
+    margin-top: 10px;
+}
+img.sp-img2 {
+margin-top: 30px;
+d-flex justify-content: center;
+width: 60px;
+}
+.sp-headline {
+    color: #ffffff;
+    margin-top: 20px;
+}
+.vertical {
+        height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.vertical .row {
+    margin-right: auto;
+    margin-left: auto
+}
+.sp-heading1 {
+    color: #FFD700;
+}
+.sp-heading {
+color: #FFD700;
+}
+.text-yellow {
+    color: #FFD700;
+}
+h4.sp-heading {
+font-size: 15px;
+}
+.img-card{
+    text-align: center;
+    height: 100px;
+    width: 140px;
+}
+.scrollmenu {
+    background-color: #031F4B;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu-item {
+  display: inline-block;
+  text-align: center;
+  padding:14px;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: inherit;
+    left: inherit;
+    background-color: #031F4B !important;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    margin-left: -12px;
+    margin-top: -15px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 0px 20px 20px 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+h2 {
+color: white;
+text-align: center;
+font-size: 18px;
+}
+hr {
+    color: whitesmoke;
+    margin-top: -12px;
+}
+.nav-pills{
+    margin-top: 0px;
+}
+.form-label{
+    margin-top: 2px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+}
+
+label {
+  margin-right:20px;
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+h5 {
+    font-size: 18px;
+    color: yellow;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+h3.sp-heading {
+font-size: 18px;
+padding-top: 10px;
+font-weight: bolder;
+}
+.form-check-inline {
+    margin-right: auto!important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: yellow!important;
+    background-color: #033161!important;
+}
+.ml-145 {
+margin-left: -145px!important;
+}
